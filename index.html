@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Alarm Clock</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-12c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 10h-2v-6h2v6z'/%3E%3C/svg%3E" type="image/svg+xml">
+        <link
+        rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&display=swap"
+    />
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <script src="./assets/script/index.js" type="module"></script>
+     </head> 
+     <body>
+        <div class="container">
+            <section>
+                <div class="time"></div>
+                <div class="set">
+                    <i class="fa-solid fa-bell"></i>
+                    <p class="feedback"></p>
+                </div>
+                <form>
+                    <input type="text" placeholder="HH" class="hours" maxlength="2">
+                    <input type="text" placeholder="MM" class="minutes" maxlength="2">
+                    <button class="button">Set alarm</button>
+                </form>
+
+            </section>
+                
+        </div>
+     </body>
+</html>
